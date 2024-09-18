@@ -1,9 +1,13 @@
-function Message() {
+import React from "react";
+
+const Message = () => {
   return (
     <p>
-        This is a message from the Message component.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis numquam
+      nemo blanditiis alias obcaecati quasi itaque dignissimos architecto
+      temporibus fuga.
     </p>
-  )
-}
+  );
+};
 
-export default Message
+export default Message;
