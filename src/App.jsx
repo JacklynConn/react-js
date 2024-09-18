@@ -4,13 +4,17 @@ import Message from "./components/Message";
 import './App.css';
 
 function App() {
-  return (
-    <div className="container">
-      <Greeting />
-      <Jobs />
-      <Message />
-    </div>
-  )
+  const uploading  = true;
+  return <h1>
+    {
+      uploading ? <Loading /> : "No Such File"
+    }
+  </h1>
+}
+
+
+function Loading(){
+  return <span>Files are loading...</span>
 }
 
 export default App
