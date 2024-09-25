@@ -1,16 +1,14 @@
-import imgSrc from '../assets/boy.png'
-import "./Poster.css"
+import "./Poster.css";
 
-const poster = () => {
+const Poster = (props) => {
+  console.log(props);
   return (
     <article>
-        <img src={imgSrc} alt="pic" />
-        <h2>Mak Mach</h2>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel fugiat hic suscipit.
-        </p>
+      <img src={props.imageSrc} alt="pic" />
+      <h2>{props.name}</h2>
+      <p>{props.text}</p>
     </article>
-  )
-}
+  );
+};
 
-export default poster
+export default Poster;
