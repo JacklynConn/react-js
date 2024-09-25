@@ -1,12 +1,11 @@
 import "./Poster.css";
 
-const Poster = (props) => {
-  console.log(props);
+const Poster = ({ imageSrc, name, text }) => {
   return (
     <article>
-      <img src={props.imageSrc} alt="pic" />
-      <h2>{props.name}</h2>
-      <p>{props.text}</p>
+      <img src={imageSrc} alt="pic" />
+      <h2>{name}</h2>
+      <p>{text}</p>
     </article>
   );
 };
