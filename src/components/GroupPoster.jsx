@@ -6,7 +6,9 @@ import p3 from "../assets/woman.png";
 
 const GroupPoster = () => {
   return <React.Fragment>
-    <Poster imageSrc= {p1} name="Mak Mach" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel fugiat hic suscipit."/>
+    <Poster imageSrc= {p1} name="Mak Mach" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel fugiat hic suscipit.">
+      <button>Click Me</button>
+    </Poster>
     <Poster imageSrc= {p2} name="Mak Mach" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel fugiat hic suscipit."/>
     <Poster imageSrc= {p3} name="Mak Mach" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel fugiat hic suscipit."/>
     </React.Fragment>
