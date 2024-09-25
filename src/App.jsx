@@ -1,8 +1,8 @@
 import './App.css';
-import Profile from "./components/profile";
+import GroupPoster from './components/GroupPoster';
 
 function App() {
-  return <Profile/>;
+  return <GroupPoster />;
 }
 
 export default App
