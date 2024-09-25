@@ -1,10 +1,12 @@
 
-const names = ['John', 'Paul', 'George', 'Ringo'];
-
-const userNames = names.map((n) => <h3>{n}</h3>);
+const names = ['John', 'Paul', 'George', 'Ringo', 'Navy'];
 
 const User = () => {
-  return <h3>{userNames}</h3>;
+  return (
+    <div>
+        {names.map((n) => <h3>{n}</h3>)}
+    </div>
+  );
 };
 
 export default User
